@@ -1,0 +1,39 @@
+.indexMain{
+	position: relative;
+	height: 100%;
+	background-color:#ffffff00;
+	overflow:auto;
+	text-align:-webkit-center;
+}
+
+.indexMain .indexBackground {
+	position: fixed;
+	top: 0;
+	left: 180px;
+	z-index: -3;
+	width: -webkit-fill-available;
+	height: inherit;
+	
+	background: url('../Background/IndexBackground.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	-ms-filter: blur(15px);
+	filter: blur(15px);
+	-webkit-filter: blur(15px);
+	
+
+	box-shadow: 0 0 20px 20px black;
+}
+
+.indexMain .indexText{
+	color: white;
+	text-shadow: 0 0 10px black;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.indexMain .indexText h1, h2{
+	font-weight: normal;
+}

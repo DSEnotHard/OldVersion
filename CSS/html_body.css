@@ -1,0 +1,13 @@
+
+html {
+	width:100%;
+	margin: 0;
+	height: 100%;
+	display: table;
+  	font-family: "微軟正黑體", sans-serif, Arial, Courier New, monospace;
+}
+
+body {
+  display: table-cell;
+  height: 100%;
+}
